@@ -1,4 +1,5 @@
 .next
 .yarn
-webpack.config.js
-postcss.config.js
+.pnp.cjs
+.yarnrc.yml
+yarn.lock
