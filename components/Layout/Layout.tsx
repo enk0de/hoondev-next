@@ -21,8 +21,8 @@ export default function Layout({ children }) {
 
   return (
     <>
-      <Header />
-      <main tw="px-[18px]">{children}</main>
+      <Header float={float} />
+      <main tw="px-[16px] h-[3000px] max-w-screen-lg mx-auto">{children}</main>
       <Footer />
     </>
   );
