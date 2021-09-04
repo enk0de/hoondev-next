@@ -16,6 +16,11 @@ const GlobalStyles = () => (
           'Malgun Gothic', sans-serif;
         line-height: 1.4;
         font-size: 16px;
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        -webkit-tap-highlight-color: transparent;
       }
 
       * {
