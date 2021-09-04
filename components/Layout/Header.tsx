@@ -12,14 +12,18 @@ export default function Header({ float }: IHeaderProps) {
     <header tw="fixed top-0 left-0 right-0 m-[12px]">
       <div
         css={[
-          tw`flex max-w-screen-lg mx-auto space-x-6 bg-white px-[22px] py-[15px] transition-shadow rounded-2xl backdrop-filter backdrop-blur-lg`,
+          tw`flex max-w-screen-lg mx-auto space-x-6 bg-white px-[25px] py-[15px] transition-shadow rounded-2xl backdrop-filter backdrop-blur-lg`,
           float && tw`bg-light-1 shadow-light-el-4 bg-opacity-25`
         ]}
       >
         <Image src="/images/logo.svg" width={172.5} height={24} alt="Logo" />
 
-        <StyledHeaderMenu>feed</StyledHeaderMenu>
-        <StyledHeaderMenu>github</StyledHeaderMenu>
+        <a href="https://feed.hoondev.com" target="_blank" rel="noreferrer">
+          <StyledHeaderMenu>feed</StyledHeaderMenu>
+        </a>
+        <a href="https://www.github.com/hoondeveloper" target="_blank" rel="noreferrer">
+          <StyledHeaderMenu>github</StyledHeaderMenu>
+        </a>
       </div>
     </header>
   );
