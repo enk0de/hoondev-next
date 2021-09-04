@@ -1,37 +1,30 @@
 {
-  "name": "my-app",
+  "name": "hoondev-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
-  "packageManager": "yarn@3.0.1",
   "dependencies": {
-    "date-fns": "^2.11.1",
-    "gray-matter": "^4.0.2",
-    "next": "^11.0.0",
+    "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "remark": "^12.0.0",
-    "remark-html": "^12.0.0"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@types/eslint": "^7.28.0",
-    "@types/node": "^16.7.6",
-    "@types/prettier": "^2.3.2",
-    "@types/react": "^17.0.19",
-    "@typescript-eslint/eslint-plugin": "^4.30.0",
-    "@typescript-eslint/parser": "^4.30.0",
+    "@types/node": "^16.7.10",
+    "@types/react": "17.0.19",
     "autoprefixer": "latest",
-    "eslint": "^7.32.0",
-    "eslint-config-next": "^11.1.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "postcss": "latest",
     "prettier": "^2.3.2",
     "tailwindcss": "latest",
-    "typescript": "^4.4.2"
-  }
+    "typescript": "4.4.2"
+  },
+  "packageManager": "yarn@3.0.2"
 }
