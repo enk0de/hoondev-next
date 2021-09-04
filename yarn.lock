@@ -2449,9 +2449,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hoondev-next-2@workspace:.":
+"hoondev-next@workspace:.":
   version: 0.0.0-use.local
-  resolution: "hoondev-next-2@workspace:."
+  resolution: "hoondev-next@workspace:."
   dependencies:
     "@types/node": ^16.7.10
     "@types/react": 17.0.19
