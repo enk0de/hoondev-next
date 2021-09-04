@@ -40,6 +40,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/react", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:11.4.1"],
             ["@emotion/server", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:11.4.0"],
             ["@emotion/styled", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:11.3.0"],
+            ["@rehooks/window-scroll-position", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:1.0.1"],
+            ["@types/lodash", "npm:4.14.172"],
             ["@types/node", "npm:16.7.10"],
             ["@types/react", "npm:17.0.19"],
             ["autoprefixer", "virtual:3898afaa6021db9369b440b8816ab562842bcd3aec138bd76a646d408af4b9f876ac6ca28baff58166f1de32574df69cfb1cde525a3af868e95b755aed158df7#npm:10.3.4"],
@@ -48,6 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:11.1.2"],
             ["eslint-config-prettier", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:8.3.0"],
             ["eslint-plugin-prettier", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:4.0.0"],
+            ["lodash", "npm:4.17.21"],
             ["next", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:11.1.2"],
             ["postcss", "npm:8.3.6"],
             ["prettier", "npm:2.3.2"],
@@ -736,6 +739,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@rehooks/window-scroll-position", [
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/@rehooks-window-scroll-position-npm-1.0.1-e82171d6c5-e849e5ed0c.zip/node_modules/@rehooks/window-scroll-position/",
+          "packageDependencies": [
+            ["@rehooks/window-scroll-position", "npm:1.0.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:1.0.1", {
+          "packageLocation": "./.yarn/__virtual__/@rehooks-window-scroll-position-virtual-6f8d792e2e/0/cache/@rehooks-window-scroll-position-npm-1.0.1-e82171d6c5-e849e5ed0c.zip/node_modules/@rehooks/window-scroll-position/",
+          "packageDependencies": [
+            ["@rehooks/window-scroll-position", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:1.0.1"],
+            ["@types/react", "npm:17.0.19"],
+            ["lodash.throttle", "npm:4.1.1"],
+            ["react", "npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@rushstack/eslint-patch", [
         ["npm:1.0.6", {
           "packageLocation": "./.yarn/cache/@rushstack-eslint-patch-npm-1.0.6-175d9af5dd-fbecc15d7e.zip/node_modules/@rushstack/eslint-patch/",
@@ -759,6 +785,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-json5-npm-0.0.29-f63a7916bd-e60b153664.zip/node_modules/@types/json5/",
           "packageDependencies": [
             ["@types/json5", "npm:0.0.29"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/lodash", [
+        ["npm:4.14.172", {
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.172-e52063c461-5fc51ea40d.zip/node_modules/@types/lodash/",
+          "packageDependencies": [
+            ["@types/lodash", "npm:4.14.172"]
           ],
           "linkType": "HARD",
         }]
@@ -3413,6 +3448,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/react", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:11.4.1"],
             ["@emotion/server", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:11.4.0"],
             ["@emotion/styled", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:11.3.0"],
+            ["@rehooks/window-scroll-position", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:1.0.1"],
+            ["@types/lodash", "npm:4.14.172"],
             ["@types/node", "npm:16.7.10"],
             ["@types/react", "npm:17.0.19"],
             ["autoprefixer", "virtual:3898afaa6021db9369b440b8816ab562842bcd3aec138bd76a646d408af4b9f876ac6ca28baff58166f1de32574df69cfb1cde525a3af868e95b755aed158df7#npm:10.3.4"],
@@ -3421,6 +3458,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:11.1.2"],
             ["eslint-config-prettier", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:8.3.0"],
             ["eslint-plugin-prettier", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:4.0.0"],
+            ["lodash", "npm:4.17.21"],
             ["next", "virtual:8954771172772a0ff1ed07af38b67f70c88e3e3f3d920ee55de177b18491f58fbe7e066fd535b4cae0ae4c3d19538352128a6aaf75270710d3ea718ade1a1c17#npm:11.1.2"],
             ["postcss", "npm:8.3.6"],
             ["prettier", "npm:2.3.2"],
@@ -4203,6 +4241,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash.sortby-npm-4.7.0-fda8ab950d-db170c9396.zip/node_modules/lodash.sortby/",
           "packageDependencies": [
             ["lodash.sortby", "npm:4.7.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash.throttle", [
+        ["npm:4.1.1", {
+          "packageLocation": "./.yarn/cache/lodash.throttle-npm-4.1.1-856641af92-129c0a28ce.zip/node_modules/lodash.throttle/",
+          "packageDependencies": [
+            ["lodash.throttle", "npm:4.1.1"]
           ],
           "linkType": "HARD",
         }]

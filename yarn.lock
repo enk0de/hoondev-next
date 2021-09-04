@@ -532,6 +532,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rehooks/window-scroll-position@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@rehooks/window-scroll-position@npm:1.0.1"
+  dependencies:
+    lodash.throttle: ^4.1.1
+  peerDependencies:
+    react: ^16.7.0-alpha.0
+  checksum: e849e5ed0c0076766090cdf0925fd197d9083a81e2edb10b85421a92b8b5b8f1b74b25f5fbbe7a4dae15b62155aaa6a758a59aa86598d768879920bb793c782a
+  languageName: node
+  linkType: hard
+
 "@rushstack/eslint-patch@npm:^1.0.6":
   version: 1.0.6
   resolution: "@rushstack/eslint-patch@npm:1.0.6"
@@ -550,6 +561,13 @@ __metadata:
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
   checksum: e60b153664572116dfea673c5bda7778dbff150498f44f998e34b5886d8afc47f16799280e4b6e241c0472aef1bc36add771c569c68fc5125fc2ae519a3eb9ac
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:^4.14.172":
+  version: 4.14.172
+  resolution: "@types/lodash@npm:4.14.172"
+  checksum: 5fc51ea40d7e455bd1c760bcc60c9e81f82d85988666d4d4969bd8311367c63bbf1fe2be48755ba87836710e45fff94014ec164ebe6ccaa72815014981152434
   languageName: node
   linkType: hard
 
@@ -2776,6 +2794,8 @@ __metadata:
     "@emotion/react": ^11.4.1
     "@emotion/server": ^11.4.0
     "@emotion/styled": ^11.3.0
+    "@rehooks/window-scroll-position": ^1.0.1
+    "@types/lodash": ^4.14.172
     "@types/node": ^16.7.10
     "@types/react": 17.0.19
     autoprefixer: latest
@@ -2784,6 +2804,7 @@ __metadata:
     eslint-config-next: 11.1.2
     eslint-config-prettier: ^8.3.0
     eslint-plugin-prettier: ^4.0.0
+    lodash: ^4.17.21
     next: 11.1.2
     postcss: latest
     prettier: ^2.3.2
@@ -3469,6 +3490,13 @@ __metadata:
   version: 4.7.0
   resolution: "lodash.sortby@npm:4.7.0"
   checksum: db170c9396d29d11fe9a9f25668c4993e0c1331bcb941ddbd48fb76f492e732add7f2a47cfdf8e9d740fa59ac41bbfaf931d268bc72aab3ab49e9f89354d718c
+  languageName: node
+  linkType: hard
+
+"lodash.throttle@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "lodash.throttle@npm:4.1.1"
+  checksum: 129c0a28cee48b348aef146f638ef8a8b197944d4e9ec26c1890c19d9bf5a5690fe11b655c77a4551268819b32d27f4206343e30c78961f60b561b8608c8c805
   languageName: node
   linkType: hard
 
