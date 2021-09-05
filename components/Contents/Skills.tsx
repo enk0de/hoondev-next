@@ -63,6 +63,9 @@ const StyledUlWrapper = styled.ul`
   line-height: 28px;
 
   > li {
+    padding-left: 14px;
+    text-indent: -14px;
+
     &::before {
       content: '';
       width: 6px;
