@@ -16,23 +16,32 @@ export default function Header({ float }: IHeaderProps) {
           float && tw`shadow-light-el-4 bg-opacity-50`
         ]}
       >
-        <div tw="w-[172.5px] h-[24px] relative max-sm:w-[137px] max-sm:h-[20px]">
+        <div tw="w-[172.5px] h-[24px] relative max-sm:w-[155px] max-sm:h-[25px]">
           <Image src="/images/logo.svg" priority layout="fill" alt="Logo" />
         </div>
 
-        <a href="https://feed.hoondev.com" target="_blank" rel="noreferrer">
-          <StyledHeaderMenu>feed</StyledHeaderMenu>
-        </a>
-        <a href="https://www.github.com/hoondeveloper" target="_blank" rel="noreferrer">
-          <StyledHeaderMenu>github</StyledHeaderMenu>
-        </a>
+        <StyledHeaderMenu
+          href="https://feed.hoondev.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          feed
+        </StyledHeaderMenu>
+        <StyledHeaderMenu
+          href="https://www.github.com/hoondeveloper"
+          target="_blank"
+          rel="noreferrer"
+        >
+          github
+        </StyledHeaderMenu>
       </div>
     </header>
   );
 }
 
-const StyledHeaderMenu = styled.button`
+const StyledHeaderMenu = styled.a`
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 20px;
-  ${tw`text-dark-3 hover:text-dark-2 transition-colors max-sm:text-base`}
+  line-height: 22px;
+  ${tw`text-dark-3 hover:text-dark-2 hover:no-underline transition-colors max-sm:text-[18px]`}
 `;
