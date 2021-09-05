@@ -14,7 +14,7 @@ export default function Layout({ children }) {
       } else {
         float && setFloat(false);
       }
-    }, 300);
+    }, 200);
     window.addEventListener('scroll', listener);
 
     return () => {
