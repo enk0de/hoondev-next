@@ -2,7 +2,6 @@ import React from 'react';
 import SectionFrame from '../Frame/SectionFrame';
 import Article from '../Article/Article';
 import 'twin.macro';
-import { css } from '@emotion/react';
 
 type DatasetType = {
   title: string;
