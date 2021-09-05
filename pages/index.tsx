@@ -9,6 +9,7 @@ import CareerDetail from '../components/Contents/CareerDetail';
 import Awards from '../components/Contents/Awards';
 import Experiences from '../components/Contents/Experiences';
 import Education from '../components/Contents/Education';
+import Projects from '../components/Contents/Projects';
 
 const Home: NextPage = () => {
   return (
@@ -27,6 +28,7 @@ const Home: NextPage = () => {
           <CareerDetail />
           <Awards />
           <Experiences />
+          <Projects />
           <Education />
         </div>
       </main>
