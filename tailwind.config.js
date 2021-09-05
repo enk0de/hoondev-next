@@ -57,6 +57,24 @@ module.exports = {
       xl: '0.625rem',
       '2xl': '1rem',
       '3xl': '1.7267085313796997rem'
+    },
+    extend: {
+      screens: {
+        'max-2xl': { max: '1535px' },
+        // => @media (max-width: 1535px) { ... }
+
+        'max-xl': { max: '1279px' },
+        // => @media (max-width: 1279px) { ... }
+
+        'max-lg': { max: '1023px' },
+        // => @media (max-width: 1023px) { ... }
+
+        'max-md': { max: '767px' },
+        // => @media (max-width: 767px) { ... }
+
+        'max-sm': { max: '639px' }
+        // => @media (max-width: 639px) { ... }
+      }
     }
   },
   variants: {
