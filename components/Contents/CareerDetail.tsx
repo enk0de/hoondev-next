@@ -17,7 +17,7 @@ export default function CareerDetail() {
             `}
           >
             {table.map((tableItem, tableItemIdx) => (
-              <tr tw="text-left" key={tableItemIdx}>
+              <tr tw="text-base text-left" key={tableItemIdx}>
                 <th scope="row" tw="align-top py-1 w-20 text-dark-3 font-normal">
                   {tableItem.title}
                 </th>
