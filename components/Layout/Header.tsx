@@ -9,10 +9,10 @@ interface IHeaderProps {
 
 export default function Header({ float }: IHeaderProps) {
   return (
-    <header tw="fixed top-0 left-0 right-0 m-[12px]">
+    <header tw="fixed top-0 left-0 right-0 m-[12px] max-lg:m-0">
       <div
         css={[
-          tw`flex max-w-screen-lg mx-auto space-x-6 bg-white px-[25px] py-[15px] transition-shadow rounded-2xl backdrop-filter backdrop-blur-2xl`,
+          tw`flex max-w-screen-lg mx-auto space-x-6 bg-white px-[25px] py-[15px] transition-shadow rounded-2xl max-lg:rounded-none backdrop-filter backdrop-blur-2xl`,
           float && tw`shadow-light-el-4 bg-opacity-50`
         ]}
       >

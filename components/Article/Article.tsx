@@ -19,7 +19,7 @@ const Article: React.FC<IDescriptionProps> = ({
   return (
     <article>
       <div>
-        <TypoH3 tw="text-dark-1">{title}</TypoH3>
+        <TypoH3 tw="text-dark-1 max-sm:text-xl">{title}</TypoH3>
         {description && (
           <p
             css={[

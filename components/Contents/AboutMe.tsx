@@ -5,18 +5,18 @@ import 'twin.macro';
 export default function AboutMe() {
   return (
     <section tw="space-y-4">
-      <TypoH1 tw="text-dark-1">
+      <TypoH1 tw="text-dark-1 max-sm:text-2xl">
         최상의 비즈니스를 위해
         <br />
-        최고의 프로덕트를 만들어나가는
+        최고의 프로덕트를 만드는
         <br />
         프론트엔드 엔지니어입니다.
       </TypoH1>
       <p
-        tw="text-dark-2"
+        tw="text-dark-2 max-sm:text-base"
         css={css`
           font-size: 20px;
-          line-height: 32px;
+          line-height: 1.6;
         `}
       >
         아무도 바라보지 않는 미세한 디테일에 집착하고 고민합니다. 문제의 본질을

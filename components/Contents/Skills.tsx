@@ -3,6 +3,7 @@ import Article from '../Article/Article';
 import 'twin.macro';
 import styled from '@emotion/styled';
 import tw from 'twin.macro';
+import { TypoBody16 } from '../../styles/Typography';
 
 export default function Skills() {
   return (
@@ -26,10 +27,10 @@ export default function Skills() {
             개선한 경험이 있습니다.
           </li>
         </StyledUlWrapper>
-        <p tw="mt-4">
+        <TypoBody16 tw="mt-4">
           그 외에도 Babel, Apollo Client, PostCSS, Yarn Workspace, CSS-in-JS 등 최고의
           프로덕트를 위해 어떤 기술이든 적극적으로 도입하고 탐구합니다.
-        </p>
+        </TypoBody16>
       </Article>
       <Article title="툴셋과 업무 프로세스">
         <StyledUlWrapper>
