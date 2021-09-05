@@ -2,13 +2,9 @@ import React from 'react';
 import SectionFrame from '../Frame/SectionFrame';
 import Article from '../Article/Article';
 import 'twin.macro';
+import { DatasetBaseType } from '../../interfaces/dataset';
 
-type DatasetType = {
-  title: string;
-  description: string;
-};
-
-const dataset: DatasetType[] = [
+const dataset: DatasetBaseType[] = [
   {
     title: 'FEConf 2021 OH Call For Share',
     description: 'Webpack 5 Module Federation으로 Micro-Frontends 운영하기'

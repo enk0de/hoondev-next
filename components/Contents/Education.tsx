@@ -3,13 +3,9 @@ import SectionFrame from '../Frame/SectionFrame';
 import Article from '../Article/Article';
 import 'twin.macro';
 import { css } from '@emotion/react';
+import { DatasetBaseType } from '../../interfaces/dataset';
 
-type DatasetType = {
-  title: string;
-  description: string;
-};
-
-const dataset: DatasetType[] = [
+const dataset: DatasetBaseType[] = [
   {
     title: '총학점평균',
     description: '3.97 / 4.50'

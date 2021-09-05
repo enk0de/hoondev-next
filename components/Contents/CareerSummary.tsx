@@ -2,13 +2,9 @@ import SectionFrame from '../Frame/SectionFrame';
 import Article from '../Article/Article';
 import 'twin.macro';
 import { css } from '@emotion/react';
+import { DatasetBaseType } from '../../interfaces/dataset';
 
-type DatasetType = {
-  title: string;
-  description: string;
-};
-
-const dataset: DatasetType[] = [
+const dataset: DatasetBaseType[] = [
   {
     title: 'R&D팀',
     description: '2020. 7 ~ 2020. 10'

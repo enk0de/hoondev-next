@@ -2,13 +2,9 @@ import React from 'react';
 import SectionFrame from '../Frame/SectionFrame';
 import Article from '../Article/Article';
 import 'twin.macro';
+import { DatasetBaseType } from '../../interfaces/dataset';
 
-type DatasetType = {
-  title: string;
-  description: string;
-};
-
-const dataset: DatasetType[] = [
+const dataset: DatasetBaseType[] = [
   {
     title: '2020 CLUG 겨울 해커톤',
     description: '1등'
