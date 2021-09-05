@@ -17,21 +17,26 @@ export default function Footer() {
         `}
       >
         <a href="https://twitter.com/hoondeveloper" target="_blank" rel="noreferrer">
-          <Image src="/icons/twitter.svg" width={24} height={24} />
+          <Image src="/icons/twitter.svg" width={24} height={24} alt="Twitter" />
         </a>
         <a
           href="https://www.linkedin.com/in/%EC%A7%80%ED%9B%88-%EC%9E%84-b441b81b5/"
           target="_blank"
           rel="noreferrer"
         >
-          <Image src="/icons/linkedin.svg" width={24} height={24} />
+          <Image src="/icons/linkedin.svg" width={24} height={24} alt="LinkedIn" />
         </a>
         <a
           href="https://www.rocketpunch.com/@hoonskyn9"
           target="_blank"
           rel="noreferrer"
         >
-          <Image src="/icons/rocketpunch.svg" width={24} height={24} />
+          <Image
+            src="/icons/rocketpunch.svg"
+            width={24}
+            height={24}
+            alt="Rocketpunch"
+          />
         </a>
       </div>
       <TypoMediumLabel tw="text-dark-4">Frontend Engineer, Lim Ji Hoon</TypoMediumLabel>
