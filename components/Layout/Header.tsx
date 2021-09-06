@@ -13,7 +13,7 @@ export default function Header({ float }: IHeaderProps) {
       <div
         css={[
           tw`flex items-center max-w-screen-lg space-x-6 mx-auto bg-white px-[25px] py-[15px] transition-shadow rounded-2xl max-lg:rounded-none backdrop-filter backdrop-blur-2xl`,
-          float && tw`shadow-light-el-4 bg-opacity-50`
+          float && tw`shadow-light-el-4 bg-opacity-75`
         ]}
       >
         <div tw="w-[172.5px] h-[24px] relative max-sm:w-[155px] max-sm:h-[25px]">
