@@ -4,11 +4,13 @@ import Article from '../Article/Article';
 import { DatasetWithTableType } from '../../interfaces/dataset';
 import { css } from '@emotion/react';
 import 'twin.macro';
+import NormalButton from '../Button/NormalButton';
+import Image from 'next/image';
 
 export default function Projects() {
   return (
     <SectionFrame title="개인 프로젝트">
-      {dataset.map(({ title, description, table }, idx) => (
+      {dataset.map(({ slug, title, description, extras, table }, idx) => (
         <Article title={title} description={description} smallDescription key={idx}>
           <table
             css={css`
@@ -25,6 +27,26 @@ export default function Projects() {
               </tr>
             ))}
           </table>
+          {(slug || extras) && (
+            <div tw="space-x-3 flex pt-3 pb-1">
+              {slug && (
+                <NormalButton>
+                  <span tw="mr-1.5">자세히</span>
+                  <Image src="/icons/more.svg" width="8" height="12" alt="More" />
+                </NormalButton>
+              )}
+              {extras?.github && (
+                <NormalButton>
+                  <Image src="/icons/github.svg" width="16" height="16" alt="GitHub" />
+                </NormalButton>
+              )}
+              {extras?.link && (
+                <NormalButton>
+                  <Image src="/icons/link.svg" width="16" height="16" alt="Live" />
+                </NormalButton>
+              )}
+            </div>
+          )}
         </Article>
       ))}
     </SectionFrame>
@@ -33,8 +55,13 @@ export default function Projects() {
 
 const dataset: DatasetWithTableType[] = [
   {
+    slug: 'studeep',
     title: 'STUDEEP',
     description: '2021. 4 ~ 2021. 7',
+    extras: {
+      github: 'https://github.com/YAPP-18th/ML-Team-Frontend',
+      link: 'https://www.studeep.com'
+    },
     table: [
       {
         title: '기능 소개',
@@ -52,8 +79,12 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
+    slug: 'jandis_value',
     title: '잔디의 같이',
     description: '2021. 7 ~ 2021. 8',
+    extras: {
+      github: 'https://github.com/CLUG-kr/Frontend_JANDI-s_VALUE'
+    },
     table: [
       {
         title: '기능 소개',
@@ -71,8 +102,12 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
+    slug: 'rtcorona',
     title: '실시간 코로나',
-    description: '2021. 2',
+    description: '2020. 2',
+    extras: {
+      github: 'https://github.com/hoondeveloper/rtCorona'
+    },
     table: [
       {
         title: '기능 소개',
@@ -90,8 +125,12 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
+    slug: 'voicefeedback',
     title: 'VoiceFeedback',
-    description: '2020. 11 ~',
+    description: '2019. 7',
+    extras: {
+      github: 'https://github.com/hoondeveloper/projectAlpha'
+    },
     table: [
       {
         title: '기능 소개',
