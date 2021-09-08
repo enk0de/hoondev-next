@@ -1,3 +1,4 @@
+/** @jsxImportSource @emotion/react */
 import { TypoDisplay1 } from '../../styles/Typography';
 import 'twin.macro';
 

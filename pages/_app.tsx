@@ -1,3 +1,4 @@
+/** @jsxImportSource @emotion/react */
 import type { AppProps } from 'next/app';
 import { GlobalStyles as TwGlobal } from 'twin.macro';
 import Layout from '../components/Layout/Layout';

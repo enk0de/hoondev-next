@@ -1,3 +1,4 @@
+/** @jsxImportSource @emotion/react */
 import React from 'react';
 import SectionFrame from '../Frame/SectionFrame';
 import Article from '../Article/Article';

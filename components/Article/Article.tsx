@@ -1,3 +1,4 @@
+/** @jsxImportSource @emotion/react */
 import React from 'react';
 import { TypoH3 } from '../../styles/Typography';
 import 'twin.macro';

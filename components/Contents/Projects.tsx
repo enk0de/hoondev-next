@@ -1,3 +1,4 @@
+/** @jsxImportSource @emotion/react */
 import SectionFrame from '../Frame/SectionFrame';
 import Article from '../Article/Article';
 import { DatasetWithTableType } from '../../interfaces/dataset';
