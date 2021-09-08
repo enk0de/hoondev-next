@@ -1,10 +1,7 @@
-import Footer from './Footer';
-import Header from './Header';
-import 'twin.macro';
 import { useEffect, useState } from 'react';
 import { throttle } from 'lodash';
 
-export default function Layout({ children }) {
+export const useScrollReactiveFloat = (throttleDuration: number = 200) => {
   const [float, setFloat] = useState(false);
 
   useEffect(() => {
@@ -14,7 +11,7 @@ export default function Layout({ children }) {
       } else {
         float && setFloat(false);
       }
-    }, 200);
+    }, throttleDuration);
     window.addEventListener('scroll', listener);
 
     return () => {
@@ -22,11 +19,5 @@ export default function Layout({ children }) {
     };
   }, [float]);
 
-  return (
-    <>
-      <Header float={float} />
-      <main tw="px-[16px] max-w-screen-lg mx-auto">{children}</main>
-      <Footer />
-    </>
-  );
-}
+  return float;
+};

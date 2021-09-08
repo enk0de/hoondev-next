@@ -1,6 +1,7 @@
+/** @jsxImportSource @emotion/react */
 import Image from 'next/image';
 import 'twin.macro';
-import { TypoMediumLabel } from '../../styles/Typography';
+import { TypoMediumLabel } from '../../../styles/Typography';
 import { css } from '@emotion/react';
 import tw from 'twin.macro';
 
