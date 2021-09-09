@@ -137,7 +137,6 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
-    slug: 'voicefeedback',
     title: 'VoiceFeedback',
     description: '2019. 7',
     extras: {
