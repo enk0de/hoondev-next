@@ -23,6 +23,7 @@ export default class MyDocument extends Document<MyDocumentProps> {
     return (
       <Html lang="ko">
         <Head>
+          <link rel="icon" href="/favicon.ico" />
           <style
             data-emotion-css={this.props.ids.join(' ')}
             dangerouslySetInnerHTML={{ __html: this.props.css }}
