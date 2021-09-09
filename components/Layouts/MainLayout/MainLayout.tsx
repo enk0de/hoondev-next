@@ -3,8 +3,6 @@ import Footer from './Footer';
 import Header from './Header';
 import 'twin.macro';
 import { useScrollReactiveFloat } from '../../../hooks/useScrollReactiveFloat';
-import { variants } from '../../../shared/constants/animationVariants';
-import { motion } from 'framer-motion';
 
 export default function MainLayout({ children }) {
   const float = useScrollReactiveFloat();
@@ -12,15 +10,7 @@ export default function MainLayout({ children }) {
   return (
     <>
       <Header float={float} />
-      <motion.main
-        variants={variants}
-        initial="hidden"
-        animate="enter"
-        transition={{ type: 'easeInOut' }}
-        tw="px-[16px] max-w-screen-lg mx-auto"
-      >
-        {children}
-      </motion.main>
+      <main tw="px-[16px] max-w-screen-lg mx-auto">{children}</main>
       <Footer />
     </>
   );
