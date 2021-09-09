@@ -18,7 +18,7 @@ const DetailLayout: React.FC<{
   return (
     <>
       <Header float={float} title={title} />
-      <article tw="prose lg:prose-lg px-[16px] pt-[80px] max-w-screen-lg mx-auto">
+      <article tw="prose lg:prose-lg px-[16px] pt-[100px] lg:pt-[120px] pb-[80px] max-w-screen-lg mx-auto">
         {children}
       </article>
     </>
