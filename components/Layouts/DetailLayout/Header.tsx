@@ -25,7 +25,9 @@ export default function Header({ float, title }: IHeaderProps) {
             <Image src="/icons/back.svg" priority width="24" height="24" alt="뒤로" />
           </div>
         </button>
-        <TypoH6 tw="text-dark-1">{title}</TypoH6>
+        <TypoH6 tw="text-dark-1 overflow-hidden overflow-ellipsis whitespace-nowrap pr-[24px]">
+          {title}
+        </TypoH6>
       </div>
     </header>
   );
