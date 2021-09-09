@@ -17,7 +17,6 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         animate="enter"
         exit="hidden"
         transition={{ type: 'easeInOut' }}
-        tw="px-[16px] max-w-screen-lg mx-auto"
       >
         <Component {...pageProps} />
       </motion.main>
