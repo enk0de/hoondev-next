@@ -6,6 +6,7 @@ import { css } from '@emotion/react';
 import 'twin.macro';
 import NormalButton from '../Button/NormalButton';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Projects() {
   return (
@@ -30,20 +31,31 @@ export default function Projects() {
           {(slug || extras) && (
             <div tw="space-x-3 flex pt-3 pb-1">
               {slug && (
-                <NormalButton>
-                  <span tw="mr-1.5">자세히</span>
-                  <Image src="/icons/more.svg" width="8" height="12" alt="More" />
-                </NormalButton>
+                <Link href={`/detail/${slug}`} scroll={false} passHref={true}>
+                  <NormalButton>
+                    <span tw="mr-1.5">자세히</span>
+                    <Image src="/icons/more.svg" width="8" height="12" alt="More" />
+                  </NormalButton>
+                </Link>
               )}
               {extras?.github && (
-                <NormalButton>
-                  <Image src="/icons/github.svg" width="16" height="16" alt="GitHub" />
-                </NormalButton>
+                <a href={extras.github as string} target="_blank" rel="noreferrer">
+                  <NormalButton>
+                    <Image
+                      src="/icons/github.svg"
+                      width="16"
+                      height="16"
+                      alt="GitHub"
+                    />
+                  </NormalButton>
+                </a>
               )}
               {extras?.link && (
-                <NormalButton>
-                  <Image src="/icons/link.svg" width="16" height="16" alt="Live" />
-                </NormalButton>
+                <a href={extras.link as string} target="_blank" rel="noreferrer">
+                  <NormalButton>
+                    <Image src="/icons/link.svg" width="16" height="16" alt="Live" />
+                  </NormalButton>
+                </a>
               )}
             </div>
           )}
