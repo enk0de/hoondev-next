@@ -202,24 +202,5 @@ const dataset: DatasetWithTableType[] = [
         description: '프론트엔드 개발'
       }
     ]
-  },
-  {
-    title: 'Lubu',
-    description: '2020. 7 ~ 2020. 12',
-    table: [
-      {
-        title: '간단 소개',
-        description:
-          'QA 및 CS 처리를 위한 통신 데이터 검증, 디자인 시스템 관리를 위한 BZNAV의 백오피스 애플리케이션'
-      },
-      {
-        title: '사용 기술',
-        description: 'Angular, TypeScript, RxJS, Storybook'
-      },
-      {
-        title: '역할',
-        description: '프론트엔드 개발'
-      }
-    ]
   }
 ];
