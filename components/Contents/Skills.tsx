@@ -33,8 +33,8 @@ export default function Skills() {
             JavaScript 번들 사이즈를 크게 줄인 경험이 있습니다.
           </li>
           <li>
-            Webpack 5 Module Federation 등의 기술을 도입하여 프로덕트 개발 환경을 크게
-            개선한 경험이 있습니다.
+            <span tw="text-primary-lighter font-bold">Webpack 5 Module Federation</span>{' '}
+            등의 기술을 도입하여 프로덕트 개발 환경을 크게 개선한 경험이 있습니다.
           </li>
         </StyledUlWrapper>
         <TypoBody16 tw="mt-4">
@@ -42,7 +42,7 @@ export default function Skills() {
           프로덕트를 위해 어떤 기술이든 적극적으로 도입하고 탐구합니다.
         </TypoBody16>
       </Article>
-      <Article title="툴셋과 업무 프로세스">
+      <Article title="사내문화 및 업무 프로세스">
         <StyledUlWrapper>
           <li>
             칸반 보드를 이용한{' '}
@@ -50,7 +50,19 @@ export default function Skills() {
             익숙합니다.
           </li>
           <li>
-            <b>명확한 개발 스펙 명세</b>를 작성하는 것에 능숙합니다.
+            <span tw="text-primary-lighter font-bold">
+              프론트엔드 개발 문화의 확립과 개선
+            </span>
+            을 위해 매주 프론트엔드 위클리 엔지니어링 데이를 운영하는 등의 노력을 한
+            경험이 있습니다.
+          </li>
+          <li>
+            여러 차례 사내 문화나 프론트엔드 개발에 대한 인사이트를 공유하기 위해{' '}
+            <b>사내 발표</b>를 해본 경험이 있습니다.
+          </li>
+          <li>
+            기존에 부족했던 <b>PR 및 코드 리뷰 프로세스</b>를 재정립하고 성공적으로
+            정착시킨 경험이 있습니다.
           </li>
           <li>
             gtag, Fullstory, Datadog, Sentry 등의{' '}
