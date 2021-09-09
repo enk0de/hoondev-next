@@ -7,13 +7,62 @@ export const meta = {
 
 export default ({ children }) => <DetailLayout meta={meta}>{children}</DetailLayout>;
 
-## My Headline
+## 작업 요약
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+- 프론트엔드 아키텍쳐 설계, 코딩 컨벤션 확립 등 챕터 전두지휘
+- 비동기 데이터 흐름을 제어하기 위해 RxJS 사용
+- WebCam과 Tensorflow.js 머신러닝 모델 연동을 위한 로직 구현
+- Socket.IO를 이용해 스터디 룸에서 실시간 통신 기능 구현
+- 데이터 시각화와 후처리를 위해 서버에 비동기적으로 학습 데이터 전송하는 로직 구현
+- 아토믹 디자인 패턴을 차용하여 디자인 시스템 컴포넌트 구현 (실험적)
+- OAuth 인증 처리를 위한 플로우, 접근 스코프 구현
+- emotion, TailwindCSS 사용하여 스타일 독립화
+- Antd Chart를 이용하여 데이터 시각화
+- ESLint, Prettier 이용하여 코드 포맷 획일화
+- 통신 독립적인 뷰를 그리는 컴포넌트, 통신을 위한 컴포넌트 구분하여 통신 독립화
+- Heroku, Vercel을 이용하여 서비스 배포
+
+## 기술 스택
+
+### 코어
+
+- React 17
+- TypeScript
+- Recoil
+- RxJS for Reactive Programming
+- OAuth 2.0 for Access-Token handling
+- Context API
+- React Router
+- Local Storage
+- Craco for customizing CRA
+
+### 데이터 패칭
+
+- Axios for using RESTful API
+- SWR
+
+### 스타일링
+
+- @emotion
+- TailwindCSS
+- twin.macro
+- PostCSS 7
+- autoprefixer
+- node-sass for using SCSS
+
+### 데이터 시각화
+
+- Antd
+- Own created Design System
+
+### 코드 린팅
+
+- ESLint
+- Prettier
+- @emotion/babel-preset-css-prop
+
+### CD
+
+- Firebase
+
+자세한 설명은 <a href="https://github.com/YAPP-18th/ML-Team-Frontend/blob/develop/README.md" target="_blank" rel="noreferrer">여기</a>에서 보실 수 있습니다.
