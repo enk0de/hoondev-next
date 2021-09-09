@@ -31,7 +31,7 @@ export default function CareerDetail() {
           </table>
           {slug && (
             <div tw="pt-3 pb-1">
-              <Link href={`/detail/${slug}`} scroll={false}>
+              <Link href={`/detail/${slug}`} scroll={false} passHref={true}>
                 <NormalButton>
                   <span tw="mr-1.5">자세히</span>
                   <Image src="/icons/more.svg" width="8" height="12" alt="More" />

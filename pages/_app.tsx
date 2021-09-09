@@ -1,5 +1,5 @@
 /** @jsxImportSource @emotion/react */
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import type { AppProps } from 'next/app';
 import { GlobalStyles as TwGlobal } from 'twin.macro';
 import GlobalStyles from '../styles/GlobalStyles';

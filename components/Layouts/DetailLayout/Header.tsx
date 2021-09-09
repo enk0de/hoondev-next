@@ -22,7 +22,7 @@ export default function Header({ float, title }: IHeaderProps) {
       >
         <button onClick={() => router.back()}>
           <div tw="h-[30px] w-[50px] pl-[10px] flex">
-            <Image src="/icons/back.svg" priority width="24" height="24" />
+            <Image src="/icons/back.svg" priority width="24" height="24" alt="뒤로" />
           </div>
         </button>
         <TypoH6 tw="text-dark-1">{title}</TypoH6>
