@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import 'twin.macro';
 import Jumbotron from '../components/Contents/Jumbotron';
 import AboutMe from '../components/Contents/AboutMe';
