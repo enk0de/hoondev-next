@@ -7,13 +7,69 @@ export const meta = {
 
 export default ({ children }) => <DetailLayout meta={meta}>{children}</DetailLayout>;
 
-## My Headline
+## 주요작업 요약
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+- **거래처 관리 서비스 개발**
+  - 복잡한 비즈니스 로직을 효율적으로 처리하기 위해 컴포넌트 단위 로직 정책 수립
+  - 인피니트 스크롤, Virtual 스크롤 등 통신 및 뷰 로직 최적화 구현
+- **사업체 생성 기능 개발**
+  - 신규 사업체 생성 플로우 구조화 및 개발
+  - 초대 여부 등과 같은 조건에 따른 분기 로직 구현
+  - 애니메이션 등을 통해 높은 UX 경험 구현
+- **구성원 관리 기능 개발**
+  - 구성원 리스트, 구성원 초대, 구성원 상세 등등
+- **공인인증서 관리 기능 개발**
+  - 공인인증서 리스트, 테이블, 공인인증서 등록, 삭제 등등
+- **데이터 연동 기능 개발**
+- 공통적으로 사용 가능한 **증빙 상세 그리드 페이지** 구현
+  - URL Query Param에 대해 그리드 데이터 필터링 및 실시간 반영 구현
+  - 상세하게 날짜를 선택할 수 있는 Date Picker 구현
+- **글로벌 네비게이션 바 개발**
+  - 사업체 선택, 헤더 스타일 디자인 시스템 반영
+  - 사업체 선택 메뉴 드롭다운 개발
+- Angular 10으로 시작하여 11, 12 버전으로 마이그레이션 작업
+- Echarts 4.x에서 6.x로 마이그레이션 작업
+- UI/UX 성능 및 사용성 개선 작업
+- 레거시, 중복 유틸, 파이프, 디렉티브 정리
+- 디자인 시스템 단위 독립 스타일 작업
+  - 공통 스타일 분리 및 개선 작업
+  - 공통 레이아웃 컴포넌트 구현
+  - Modal, Dialog, Badge 등등 공통으로 사용하는 컴포넌트 신규 디자인 시스템 반영 및 신규 컴포넌트 개발
+- 데이터 그리드 사용성 개선 작업
+- Fullstory, Firebase Google Analytics, Microsoft Clarity 등의 매트릭 수집 SaaS 적용
+- iframe 외부 서비스의 Google Analytics 매트릭 로깅을 위한 로직 구현
+- 첫 프로젝트 Bootstrapping
+
+## 기술 스택
+
+### 코어
+
+- Angular
+- TypeScript
+- RxJS
+- Nx Workspace
+
+### 데이터 패칭
+- Apollo Client
+
+### UI 및 스타일링
+
+- NG-ZORRO
+- TailwindCSS
+- PostCSS 7
+- autoprefixer
+
+### 데이터 시각화
+
+- Echarts
+
+### 코드 린팅
+
+- ESLint
+- Prettier
+- Stylelint
+
+### CI/CD
+
+- CircleCI
+- AWS Amplify

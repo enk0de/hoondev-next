@@ -128,13 +128,12 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
-    slug: 'bznav-taf',
     title: 'BZNAV 세무대리인 웹 애플리케이션',
     description: '2020. 11 ~',
     table: [
       {
         title: '간단 소개',
-        description: ''
+        description: '세무·회계사를 위한 세무 자동화 솔루션 서비스'
       },
       {
         title: '사용 기술',
@@ -187,7 +186,6 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
-    slug: 'bznav-console',
     title: 'BZNAV 백오피스 콘솔',
     description: '2021. 1',
     table: [
@@ -206,7 +204,6 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
-    slug: 'bznav-lubu',
     title: 'Lubu',
     description: '2020. 7 ~ 2020. 12',
     table: [
