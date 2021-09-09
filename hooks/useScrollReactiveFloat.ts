@@ -5,6 +5,9 @@ export const useScrollReactiveFloat = (throttleDuration: number = 200) => {
   const [float, setFloat] = useState(false);
 
   useEffect(() => {
+    if (window.scrollY !== 0) {
+      setFloat(true);
+    }
     const listener = throttle(() => {
       if (window.scrollY !== 0) {
         !float && setFloat(true);
