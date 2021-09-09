@@ -48,12 +48,12 @@ export default function CareerDetail() {
 const dataset: DatasetWithTableType[] = [
   {
     slug: 'bznav-loca',
-    title: 'BZNAVx롯데카드 세무지원 서비스 애플리케이션',
+    title: 'BZNAV 세무지원 서비스 애플리케이션',
     description: '2021. 7 ~ 2021. 8',
     table: [
       {
-        title: '기능 소개',
-        description: ''
+        title: '간단 소개',
+        description: '외부 서비스에 통합되어 운영되는 세무지원 서비스 애플리케이션'
       },
       {
         title: '사용 기술',
@@ -72,8 +72,8 @@ const dataset: DatasetWithTableType[] = [
     description: '2021. 7 ~ 2021. 8',
     table: [
       {
-        title: '기능 소개',
-        description: ''
+        title: '간단 소개',
+        description: 'BZNAV의 핵심 서비스인 인사이트 탭의 Micro-Frontend 애플리케이션'
       },
       {
         title: '사용 기술',
@@ -92,8 +92,8 @@ const dataset: DatasetWithTableType[] = [
     description: '2021. 7 ~',
     table: [
       {
-        title: '기능 소개',
-        description: ''
+        title: '간단 소개',
+        description: '새로운 BZNAV 애플리케이션을 위한 프론트엔드 아키텍쳐 설계'
       },
       {
         title: '사용 기술',
@@ -112,9 +112,9 @@ const dataset: DatasetWithTableType[] = [
     description: '2020. 11 ~',
     table: [
       {
-        title: '기능 소개',
+        title: '간단 소개',
         description:
-          '중소사업자들의 편리하고 간편한 사업관리를 위한 솔루션을 제공하는 웹 버전 서비스'
+          '중소사업자들의 편리하고 간편한 사업관리를 위한 솔루션, BZNAV의 웹 버전 서비스'
       },
       {
         title: '사용 기술',
@@ -133,7 +133,7 @@ const dataset: DatasetWithTableType[] = [
     description: '2020. 11 ~',
     table: [
       {
-        title: '기능 소개',
+        title: '간단 소개',
         description: ''
       },
       {
@@ -152,8 +152,9 @@ const dataset: DatasetWithTableType[] = [
     description: '2021. 1 ~',
     table: [
       {
-        title: '기능 소개',
-        description: ''
+        title: '간단 소개',
+        description:
+          '중소사업자들의 편리하고 간편한 사업관리를 위한 솔루션, BZNAV의 모바일 버전 서비스'
       },
       {
         title: '사용 기술',
@@ -172,8 +173,8 @@ const dataset: DatasetWithTableType[] = [
     description: '2020. 8 ~ 2021. 9',
     table: [
       {
-        title: '기능 소개',
-        description: ''
+        title: '간단 소개',
+        description: 'BZNAV의 모든 서비스의 인증 플로우를 담당하는 SSO 애플리케이션'
       },
       {
         title: '사용 기술',
@@ -191,8 +192,8 @@ const dataset: DatasetWithTableType[] = [
     description: '2021. 1',
     table: [
       {
-        title: '기능 소개',
-        description: ''
+        title: '간단 소개',
+        description: '비즈넵 서비스 전반을 관리하기 위한 백오피스 콘솔 애플리케이션'
       },
       {
         title: '사용 기술',
@@ -210,8 +211,9 @@ const dataset: DatasetWithTableType[] = [
     description: '2020. 7 ~ 2020. 12',
     table: [
       {
-        title: '기능 소개',
-        description: ''
+        title: '간단 소개',
+        description:
+          'QA 및 CS 처리를 위한 통신 데이터 검증, 디자인 시스템 관리를 위한 BZNAV의 백오피스 애플리케이션'
       },
       {
         title: '사용 기술',

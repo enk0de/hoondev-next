@@ -76,7 +76,7 @@ const dataset: DatasetWithTableType[] = [
     },
     table: [
       {
-        title: '기능 소개',
+        title: '간단 소개',
         description: '머신러닝 기반 실시간 공부 플랫폼'
       },
       {
@@ -91,7 +91,7 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
-    slug: 'jandis_value',
+    slug: 'jandis',
     title: '잔디의 같이',
     description: '2021. 7 ~ 2021. 8',
     extras: {
@@ -99,7 +99,7 @@ const dataset: DatasetWithTableType[] = [
     },
     table: [
       {
-        title: '기능 소개',
+        title: '간단 소개',
         description:
           'GitHub 레포지터리 데이터를 통해 개발 성향 및 경향성을 분석하여 시각화해주는 서비스'
       },
@@ -122,7 +122,7 @@ const dataset: DatasetWithTableType[] = [
     },
     table: [
       {
-        title: '기능 소개',
+        title: '간단 소개',
         description:
           '실시간 국내/외 COVID-19 상황판, 실시간 뉴스, 확진자 동선 정보 등을 실시간으로 한 눈에 파악할 수 있는 서비스'
       },
@@ -145,7 +145,7 @@ const dataset: DatasetWithTableType[] = [
     },
     table: [
       {
-        title: '기능 소개',
+        title: '간단 소개',
         description: 'MR을 재생하면서 목소리를 동시에 녹음할 수 있는 iOS 애플리케이션'
       },
       {
