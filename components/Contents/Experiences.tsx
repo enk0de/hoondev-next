@@ -6,10 +6,10 @@ import 'twin.macro';
 import { DatasetBaseType } from '../../interfaces/dataset';
 
 const dataset: DatasetBaseType[] = [
-  {
-    title: 'FEConf 2021 OH Call For Share',
-    description: 'Webpack 5 Module Federation으로 Micro-Frontends 운영하기'
-  },
+  // {
+  //   title: 'FEConf 2021 OH Call For Share',
+  //   description: 'Webpack 5 Module Federation으로 Micro-Frontends 운영하기'
+  // },
   {
     title: 'YAPP',
     description: '프론트엔드 엔지니어 및 챕터 리드'
