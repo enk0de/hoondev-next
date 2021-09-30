@@ -15,6 +15,10 @@ const dataset: DatasetBaseType[] = [
     description: '2020. 11 ~ 현재'
   },
   {
+    title: 'Growth Hacking팀',
+    description: '2021. 7 ~ 현재'
+  },
+  {
     title: '프론트엔드 챕터 리드',
     description: '2021. 6 ~ 현재'
   }

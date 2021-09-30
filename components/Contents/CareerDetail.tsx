@@ -47,26 +47,6 @@ export default function CareerDetail() {
 
 const dataset: DatasetWithTableType[] = [
   {
-    slug: 'bznav-loca',
-    title: 'BZNAV 세무지원 서비스 애플리케이션',
-    description: '2021. 7 ~ 2021. 8',
-    table: [
-      {
-        title: '간단 소개',
-        description: '외부 서비스에 통합되어 운영되는 세무지원 서비스 애플리케이션'
-      },
-      {
-        title: '사용 기술',
-        description:
-          'React, TypeScript, Yarn@3, Ionic 5, Webpack 5 Module Federation, Babel, PostCSS, TailwindCSS, Emotion, Apollo Client'
-      },
-      {
-        title: '역할',
-        description: '프론트엔드 개발 책임'
-      }
-    ]
-  },
-  {
     slug: 'bznav-insight',
     title: 'BZNAV 인사이트 애플리케이션',
     description: '2021. 7 ~ 2021. 8',
@@ -103,6 +83,27 @@ const dataset: DatasetWithTableType[] = [
       {
         title: '역할',
         description: '프론트엔드 개발 책임'
+      }
+    ]
+  },
+  {
+    slug: 'bznav-mobile',
+    title: 'BZNAV 모바일 애플리케이션',
+    description: '2021. 1 ~',
+    table: [
+      {
+        title: '간단 소개',
+        description:
+          '중소사업자들의 편리하고 간편한 사업관리를 위한 솔루션, BZNAV의 모바일 버전 서비스'
+      },
+      {
+        title: '사용 기술',
+        description:
+          'Angular, TypeScript, Ionic 3, RxJS, NgRx, Apollo Client, Capacitor, Cordova'
+      },
+      {
+        title: '역할',
+        description: '프론트엔드 개발'
       }
     ]
   },
@@ -146,30 +147,9 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
-    slug: 'bznav-mobile',
-    title: 'BZNAV 모바일 애플리케이션',
-    description: '2021. 1 ~',
-    table: [
-      {
-        title: '간단 소개',
-        description:
-          '중소사업자들의 편리하고 간편한 사업관리를 위한 솔루션, BZNAV의 모바일 버전 서비스'
-      },
-      {
-        title: '사용 기술',
-        description:
-          'Angular, TypeScript, Ionic 3, RxJS, NgRx, Apollo Client, Capacitor, Cordova'
-      },
-      {
-        title: '역할',
-        description: '프론트엔드 개발'
-      }
-    ]
-  },
-  {
     slug: 'bznav-sso',
     title: 'BZNAV SSO 애플리케이션',
-    description: '2020. 8 ~ 2021. 9',
+    description: '2020. 8 ~ 2020. 9',
     table: [
       {
         title: '간단 소개',
@@ -187,7 +167,7 @@ const dataset: DatasetWithTableType[] = [
   },
   {
     title: 'BZNAV 백오피스 콘솔',
-    description: '2021. 1',
+    description: '2020. 8 ~',
     table: [
       {
         title: '간단 소개',

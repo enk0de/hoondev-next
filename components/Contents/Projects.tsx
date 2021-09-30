@@ -93,7 +93,7 @@ const dataset: DatasetWithTableType[] = [
   {
     slug: 'jandis',
     title: '잔디의 같이',
-    description: '2021. 7 ~ 2021. 8',
+    description: '2021. 2',
     extras: {
       github: 'https://github.com/CLUG-kr/Frontend_JANDI-s_VALUE'
     },

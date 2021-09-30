@@ -13,12 +13,11 @@ export default function Skills() {
         <StyledUlWrapper>
           <li>
             JavaScript ES6+ 문법에 익숙하며 주로{' '}
-            <span tw="text-primary-lighter font-bold">TypeScript</span>와{' '}
-            <span tw="text-primary-lighter font-bold">Angular</span>로 개발합니다.
-          </li>
-          <li>
-            최근에는 사내 첫 <span tw="text-primary-lighter font-bold">React</span>{' '}
-            프로젝트를 성공적으로 런칭한 경험이 있습니다.
+            <span tw="text-primary-lighter font-bold">TypeScript</span>ㄹㅗ 개발합니다.
+            <br />
+            <b>Angular</b>를 주로 사용해왔으며, 최근에는 사내 첫{' '}
+            <span tw="text-primary-lighter font-bold">React</span> 프로젝트를 성공적으로
+            런칭한 경험이 있습니다.
           </li>
           <li>
             기본적으로 <b>HTML5</b>을 이용한 시맨틱 마크업 개발에 능숙하며,{' '}
@@ -26,7 +25,7 @@ export default function Skills() {
           </li>
           <li>
             <span tw="text-primary-lighter font-bold">RxJS</span>를 이용하여 비동기
-            데이터 흐름을 제어하는데 능숙합니다.
+            데이터 흐름을 제어하는데 익숙합니다.
           </li>
           <li>
             <span tw="text-primary-lighter font-bold">Webpack</span>을 이용하여
@@ -34,7 +33,7 @@ export default function Skills() {
           </li>
           <li>
             <span tw="text-primary-lighter font-bold">Webpack 5 Module Federation</span>{' '}
-            등의 기술을 도입하여 프로덕트 개발 환경을 크게 개선한 경험이 있습니다.
+            등의 기술을 도입하여 프로덕트 개발 환경을 크게 개선해온 경험이 있습니다.
           </li>
         </StyledUlWrapper>
         <TypoBody16 tw="mt-4">
