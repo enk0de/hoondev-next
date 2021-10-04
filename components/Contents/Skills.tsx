@@ -13,7 +13,7 @@ export default function Skills() {
         <StyledUlWrapper>
           <li>
             JavaScript ES6+ 문법에 익숙하며 주로{' '}
-            <span tw="text-primary-lighter font-bold">TypeScript</span>ㄹㅗ 개발합니다.
+            <span tw="text-primary-lighter font-bold">TypeScript</span>로 개발합니다.
             <br />
             <b>Angular</b>를 주로 사용해왔으며, 최근에는 사내 첫{' '}
             <span tw="text-primary-lighter font-bold">React</span> 프로젝트를 성공적으로
