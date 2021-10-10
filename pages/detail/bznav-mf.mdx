@@ -9,66 +9,24 @@ export default ({ children }) => <DetailLayout meta={meta}>{children}</DetailLay
 
 ## 주요작업 요약
 
-- Webpack 5 Module Federation을 이용하여 **마이크로 프론트엔드** 아키텍쳐 설계
-- 실제 애플리케이션이 되는 **Host App**과 각 Micro-frontends인 **Remote App**으로 구성
-- Federated되는 모듈 사이의 의존성 패키지 vendor 공유
-- **Shared Library**를 통해 공통 비즈니스 로직, 디자인 시스템 등 공유
-- Yarn 3를 이용한 pnp, Zero-install 적용
-- Micro-frontends 간 Live Reload 적용 (@module-federation/fmr)
-- emotion, TailwindCSS 사용하여 **모노레포 모든 하위 패키지에 적용되는 스타일링 환경** 구성
-- Yarn Workspace를 이용한 **모노레포** 구성
-- ESLint, Prettier를 이용한 코드 포맷 획일화
-
-## Micro-Frontends 아키텍쳐 설계
+- **프론트엔드 개발 책임**으로서 프로젝트를 리딩했습니다.
+- Webpack 5 Module Federation을 이용하여 **마이크로 프런트엔드 아키텍처**를 도입하여 기존에 있었던 **모놀리식 프로덕트의 문제점을 해결**하였습니다.
+- Yarn@3를 이용해 **Zero Install**을 도입하여 기존의 npm이 가지던 문제를 해결했습니다.
+- Yarn Workspace를 통해 모노레포를 도입했습니다.
+  - 공통된 의존성 패키지들을 **호이스팅**하여 매 패키지마다 다시 설치해야했던 문제를 해결하였습니다.
+  - ESLint와 Prettier 등 기본적으로 모든 패키지에 동시에 적용되는 부분들을 **최상단에서 관리**하고, 각 패키지에서 **오버라이드**해서 사용할 수 있도록 구축했습니다.
 
 ### AS-IS
 
-- 앱의 기능을 업데이트하려면 전체 대상으로 리빌드하고 배포해야 한다.
+- 앱의 기능을 업데이트하려면 전체 대상으로 리빌드하고 배포해야 했습니다.
 - 바뀌지 않는 기능들도 모두 번들해서 빌드해야 하므로 빌드 시간과 배포 시간이 매우 오래 걸린다.
-- 팀별 독립적인 배포 프로세스를 가질 수 없다.
-- 조직이 커질 수록 팀별 독립 배포 프로세스의 확립이 중요한데, 이 프로세스를 유지할 경우 추후 배포의 Agility가 무너질 가능성이 매우 높다.
-- 서비스 단위로 깊은 의존성을 가지게 되면서 작은 문제가 큰 문제로 번질 수 있다.
+- 팀별 독립적인 배포 프로세스를 가질 수 없었습니다.
+- 조직이 커질 수록 팀별 독립 배포 프로세스의 확립이 중요한데, 점점 배포의 Agility가 무너져가고 있었습니다.
+- 서비스 단위로 깊은 의존성을 가지는 피쳐들이 많아, 작은 문제가 큰 문제로 번지는 경우가 있었습니다.
 
 ### TO-BE
 
-- 앱의 하단 네비게이션 탭바에 있는 탭 별로 서비스를 분리하여 운영한다.
-- 장기적으로는 하단 네비게이션에 있는 탭 내부 Depth에 대해서도 서비스를 분리하여 운영하도록 구현할 수 있다.
-- 하나의 탭은 하나의 독립적인 애플리케이션이 된다. 다른 탭의 상태나 운영 프로세스에 영향을 미치지 않는다.
-- 독립적으로 팀별로 개발하고 배포할 수 있다.
-- 서비스 간의 의존성을 최대한 낮춘다.
-
-## 기술 스택
-
-### 코어
-
-- React 17
-- TypeScript
-- Webpack 5
-- Babel
-- Module Federation
-- Recoil
-- Context API
-- React Router
-- Capacitor
-- Yarn Workspace
-
-### 데이터 패칭
-- Apollo Client
-
-### UI 및 스타일링
-
-- Ionic 5
-- @emotion
-- TailwindCSS
-- twin.macro
-- PostCSS 7
-- autoprefixer
-
-### 코드 린팅
-
-- ESLint
-- Prettier
-
-### CD
-
-- Vercel
+- 앱의 하단 네비게이션 탭바에 있는 탭 별로 서비스를 분리하여 스크럼 팀별로 별도로 개발 및 배포하고, 런타임에 Module Federation으로 통합할 수 있도록 구성합니다.
+- 장기적으로는 하단 네비게이션에 있는 탭 내부 Depth에 대해서도 서비스를 분리하여 운영하도록 구현할 수 있습니다.
+- 하나의 탭은 하나의 독립적인 애플리케이션이 됩니다. 다른 탭의 상태나 운영 프로세스에 영향을 미치지 않습니다.
+- 서비스 간의 의존성을 최대한 낮춥니다.

@@ -6,13 +6,15 @@ import 'twin.macro';
 import { DatasetBaseType } from '../../interfaces/dataset';
 
 const dataset: DatasetBaseType[] = [
-  // {
-  //   title: 'FEConf 2021 OH Call For Share',
-  //   description: 'Webpack 5 Module Federation으로 Micro-Frontends 운영하기'
-  // },
+  {
+    title: 'FEConf 2021 OH Call For Share',
+    description:
+      'Module Federation으로 모놀리식에서 벗어나 마이크로 프런트엔드에 뛰어들기'
+  },
   {
     title: 'YAPP',
-    description: '프론트엔드 엔지니어 및 챕터 리드'
+    description:
+      '대학생 개발자 연합 동아리 YAPP에서 꾸려진 팀에서 프론트엔드 개발과 프론트엔드 챕터를 리드했습니다.'
   },
   {
     title: 'CLUG',

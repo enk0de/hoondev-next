@@ -27,8 +27,8 @@ const dataset: DatasetBaseType[] = [
     description: '최우수상'
   },
   {
-    title: '2019 중앙대학교 SW인재전형 수시 입학전형 수석',
-    description: '1등 수석입학'
+    title: '2019 중앙대학교 SW인재전형 수시 수석입학',
+    description: '수석입학 (1등)'
   }
 ];
 
