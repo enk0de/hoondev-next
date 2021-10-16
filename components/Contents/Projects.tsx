@@ -42,7 +42,7 @@ export default function Projects() {
               )}
               {extras?.github && (
                 <a href={extras.github as string} target="_blank" rel="noreferrer">
-                  <NormalButton>
+                  <NormalButton tabIndex={-1}>
                     <Image
                       src="/icons/github.svg"
                       width="16"
@@ -54,7 +54,7 @@ export default function Projects() {
               )}
               {extras?.link && (
                 <a href={extras.link as string} target="_blank" rel="noreferrer">
-                  <NormalButton>
+                  <NormalButton tabIndex={-1}>
                     <Image src="/icons/link.svg" width="16" height="16" alt="Live" />
                   </NormalButton>
                 </a>
