@@ -10,7 +10,7 @@ interface IHeaderProps {
 
 export default function Header({ float }: IHeaderProps) {
   return (
-    <header tw="fixed z-50 top-0 left-0 right-0 m-[12px] max-lg:m-0">
+    <nav tw="fixed z-50 top-0 left-0 right-0 m-[12px] max-lg:m-0" role="navigation">
       <div
         css={[
           tw`flex items-center max-w-screen-lg space-x-6 mx-auto bg-white px-[25px] py-[15px] transition-shadow rounded-2xl max-lg:rounded-none backdrop-filter backdrop-blur-xl`,
@@ -25,6 +25,7 @@ export default function Header({ float }: IHeaderProps) {
           href="https://feed.hoondev.com"
           target="_blank"
           rel="noreferrer"
+          role="menuitem"
         >
           feed
         </StyledHeaderMenu>
@@ -32,11 +33,12 @@ export default function Header({ float }: IHeaderProps) {
           href="https://www.github.com/hoondeveloper"
           target="_blank"
           rel="noreferrer"
+          role="menuitem"
         >
           github
         </StyledHeaderMenu>
       </div>
-    </header>
+    </nav>
   );
 }
 
