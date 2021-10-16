@@ -19,14 +19,16 @@ export default function Projects() {
               line-height: 24px;
             `}
           >
-            {table.map((tableItem, tableItemIdx) => (
-              <tr tw="text-base text-left" key={tableItemIdx}>
-                <th scope="row" tw="align-top py-1 w-20 text-dark-3 font-normal">
-                  {tableItem.title}
-                </th>
-                <td tw="py-1">{tableItem.description}</td>
-              </tr>
-            ))}
+            <tbody>
+              {table.map((tableItem, tableItemIdx) => (
+                <tr tw="text-base text-left" key={tableItemIdx}>
+                  <th scope="row" tw="align-top py-1 w-20 text-dark-3 font-normal">
+                    {tableItem.title}
+                  </th>
+                  <td tw="py-1">{tableItem.description}</td>
+                </tr>
+              ))}
+            </tbody>
           </table>
           {(slug || extras) && (
             <div tw="space-x-3 flex pt-3 pb-1">
