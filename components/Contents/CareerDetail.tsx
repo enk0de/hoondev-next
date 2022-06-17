@@ -49,7 +49,7 @@ export default function CareerDetail() {
 
 const dataset: DatasetWithTableType[] = [
   {
-    slug: 'toss-update-news',
+    // slug: 'toss-update-news',
     title: '토스 새소식',
     description: '2022. 3 ~ 현재',
     table: [
@@ -64,7 +64,7 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
-    slug: 'toss-homeloan',
+    // slug: 'toss-homeloan',
     title: '토스 주택담보대출 (Homeloan Silo)',
     description: '2021. 12 ~ 현재',
     table: [
@@ -80,7 +80,7 @@ const dataset: DatasetWithTableType[] = [
     ]
   },
   {
-    slug: 'toss-service-center',
+    // slug: 'toss-service-center',
     title: '토스 고객센터 SSR 마이그레이션',
     description: '2021. 12 ~ 2022. 1',
     table: [
