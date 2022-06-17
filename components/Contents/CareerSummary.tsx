@@ -17,6 +17,14 @@ const careerItemList: ICareerSummaryItem[] = [
     position: '프론트엔드 엔지니어',
     details: [
       {
+        title: 'Homeloan Silo',
+        description: '2021. 12 ~ 현재'
+      },
+      {
+        title: '새소식 길드',
+        description: '2021. 2 ~ 현재'
+      },
+      {
         title: '총 경력',
         description: '2021. 12 ~ 현재'
       }

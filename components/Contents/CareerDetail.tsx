@@ -49,6 +49,54 @@ export default function CareerDetail() {
 
 const dataset: DatasetWithTableType[] = [
   {
+    slug: 'toss-update-news',
+    title: '토스 새소식',
+    description: '2022. 3 ~ 현재',
+    table: [
+      {
+        title: '간단 소개',
+        description: '새롭게 업데이트된 소식과 유저에게 필요한 정보를 제공하는 서비스'
+      },
+      {
+        title: '주요 기술',
+        description:
+          'React, Next.js, TypeScript'
+      }
+    ]
+  },
+  {
+    slug: 'toss-homeloan',
+    title: '토스 주택담보대출 (Homeloan Silo)',
+    description: '2021. 12 ~ 현재',
+    table: [
+      {
+        title: '간단 소개',
+        description: '여러 제휴사의 주택담보대출 상품에 대해 맞춤비교를 제공하고, Web Automation을 통해 은행/보험사 앱을 거치지 않고 토스에서 바로 신청할 수 있는 주택담보대출 중개 서비스'
+      },
+      {
+        title: '사용 기술',
+        description:
+          'React, Next.js, TypeScript'
+      }
+    ]
+  },
+  {
+    slug: 'toss-service-center',
+    title: '토스 고객센터 SSR 마이그레이션',
+    description: '2021. 12 ~ 2022. 1',
+    table: [
+      {
+        title: '간단 소개',
+        description: '토스 고객센터 서비스를 SSR이 가능하도록 마이그레이션 진행'
+      },
+      {
+        title: '사용 기술',
+        description:
+          'React, Next.js, TypeScript'
+      }
+    ]
+  },
+  {
     slug: 'bznav-insight',
     title: 'BZNAV 인사이트 애플리케이션',
     description: '2021. 7 ~ 2021. 8',
@@ -60,11 +108,7 @@ const dataset: DatasetWithTableType[] = [
       {
         title: '사용 기술',
         description:
-          'React, TypeScript, Yarn@3, Ionic 5, Webpack 5 Module Federation, Babel, PostCSS, TailwindCSS, Emotion, Apollo Client, Capacitor'
-      },
-      {
-        title: '역할',
-        description: '프론트엔드 개발 책임'
+          'React, TypeScript, Ionic 5, Webpack 5 Module Federation, Emotion, Apollo Client, Capacitor'
       }
     ]
   },
@@ -80,11 +124,7 @@ const dataset: DatasetWithTableType[] = [
       {
         title: '사용 기술',
         description:
-          'React, TypeScript, Yarn@3, Ionic 5, Webpack 5 Module Federation, Babel'
-      },
-      {
-        title: '역할',
-        description: '프론트엔드 개발 책임'
+          'React, TypeScript, Ionic 5, Webpack 5 Module Federation'
       }
     ]
   },
@@ -102,10 +142,6 @@ const dataset: DatasetWithTableType[] = [
         title: '사용 기술',
         description:
           'Angular, TypeScript, Ionic 3, RxJS, NgRx, Apollo Client, Capacitor, Cordova'
-      },
-      {
-        title: '역할',
-        description: '프론트엔드 개발'
       }
     ]
   },
@@ -122,11 +158,7 @@ const dataset: DatasetWithTableType[] = [
       {
         title: '사용 기술',
         description:
-          'Angular, TypeScript, RxJS, PostCSS, TailwindCSS, Apollo Client, NG-ZORRO'
-      },
-      {
-        title: '역할',
-        description: '프론트엔드 개발'
+          'Angular, TypeScript, RxJS, TailwindCSS, Apollo Client, NG-ZORRO'
       }
     ]
   },
@@ -141,10 +173,6 @@ const dataset: DatasetWithTableType[] = [
       {
         title: '사용 기술',
         description: 'Angular, TypeScript, RxJS, NgXs, Apollo Client, NG-ZORRO'
-      },
-      {
-        title: '역할',
-        description: '프론트엔드 유지보수'
       }
     ]
   },
@@ -160,10 +188,6 @@ const dataset: DatasetWithTableType[] = [
       {
         title: '사용 기술',
         description: 'Angular, TypeScript, RxJS, Storybook'
-      },
-      {
-        title: '역할',
-        description: '프론트엔드 개발'
       }
     ]
   },
@@ -176,12 +200,8 @@ const dataset: DatasetWithTableType[] = [
         description: '비즈넵 서비스 전반을 관리하기 위한 백오피스 콘솔 애플리케이션'
       },
       {
-        title: '사용 기술',
+        title: '주요 기술',
         description: 'Angular, TypeScript, RxJS, Angular Material'
-      },
-      {
-        title: '역할',
-        description: '프론트엔드 개발'
       }
     ]
   }
