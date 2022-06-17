@@ -10,5 +10,5 @@
   "prettier.useTabs": true,
   "eslint.alwaysShowStatus": true,
   "eslint.packageManager": "yarn",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
 }

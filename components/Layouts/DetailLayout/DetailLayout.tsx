@@ -2,12 +2,16 @@
 import Header from './Header';
 import 'twin.macro';
 import { useScrollReactiveFloat } from '../../../hooks/useScrollReactiveFloat';
-import React, { useEffect } from 'react';
+import React, { ReactNode, useEffect } from 'react';
 import { DetailPostType } from '../../../interfaces/detailPost';
 
-const DetailLayout: React.FC<{
+const DetailLayout = ({
+  meta: { title },
+  children
+}: {
   meta: DetailPostType;
-}> = ({ meta: { title }, children }) => {
+  children: ReactNode;
+}) => {
   useEffect(() => {
     window.scrollTo({
       top: 0

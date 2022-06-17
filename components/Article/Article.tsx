@@ -1,5 +1,5 @@
 /** @jsxImportSource @emotion/react */
-import React from 'react';
+import { ReactNode } from 'react';
 import { TypoH3 } from '../../styles/Typography';
 import 'twin.macro';
 import tw, { css } from 'twin.macro';
@@ -9,14 +9,15 @@ interface IDescriptionProps {
   title: string;
   description?: string;
   smallDescription?: boolean;
+  children?: ReactNode;
 }
 
-const Article: React.FC<IDescriptionProps> = ({
+const Article = ({
   title,
   description,
   smallDescription,
   children
-}) => {
+}: IDescriptionProps) => {
   return (
     <article>
       <TypoH3 tw="text-dark-1 max-sm:text-xl">{title}</TypoH3>

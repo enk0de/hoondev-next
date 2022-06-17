@@ -59,8 +59,7 @@ const dataset: DatasetWithTableType[] = [
       },
       {
         title: '주요 기술',
-        description:
-          'React, Next.js, TypeScript'
+        description: 'React, Next.js, TypeScript'
       }
     ]
   },
@@ -71,12 +70,12 @@ const dataset: DatasetWithTableType[] = [
     table: [
       {
         title: '간단 소개',
-        description: '여러 제휴사의 주택담보대출 상품에 대해 맞춤비교를 제공하고, Web Automation을 통해 은행/보험사 앱을 거치지 않고 토스에서 바로 신청할 수 있는 주택담보대출 중개 서비스'
+        description:
+          '여러 제휴사의 주택담보대출 상품에 대해 맞춤비교를 제공하고, Web Automation을 통해 은행/보험사 앱을 거치지 않고 토스에서 바로 신청할 수 있는 주택담보대출 중개 서비스'
       },
       {
         title: '사용 기술',
-        description:
-          'React, Next.js, TypeScript'
+        description: 'React, Next.js, TypeScript'
       }
     ]
   },
@@ -91,8 +90,7 @@ const dataset: DatasetWithTableType[] = [
       },
       {
         title: '사용 기술',
-        description:
-          'React, Next.js, TypeScript'
+        description: 'React, Next.js, TypeScript'
       }
     ]
   },
@@ -123,8 +121,7 @@ const dataset: DatasetWithTableType[] = [
       },
       {
         title: '사용 기술',
-        description:
-          'React, TypeScript, Ionic 5, Webpack 5 Module Federation'
+        description: 'React, TypeScript, Ionic 5, Webpack 5 Module Federation'
       }
     ]
   },
@@ -157,8 +154,7 @@ const dataset: DatasetWithTableType[] = [
       },
       {
         title: '사용 기술',
-        description:
-          'Angular, TypeScript, RxJS, TailwindCSS, Apollo Client, NG-ZORRO'
+        description: 'Angular, TypeScript, RxJS, TailwindCSS, Apollo Client, NG-ZORRO'
       }
     ]
   },
