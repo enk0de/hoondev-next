@@ -17,6 +17,10 @@ const careerItemList: ICareerSummaryItem[] = [
     position: '프론트엔드 엔지니어',
     details: [
       {
+        title: '디자인 플랫폼 팀, Deus 팀',
+        description: '2022.07 ~ 현재'
+      },
+      {
         title: 'Homeloan Silo',
         description: '2021. 12 ~ 현재'
       },
